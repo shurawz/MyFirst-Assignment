@@ -1,0 +1,15 @@
+#include <stdio.h>
+ int main ()
+ {
+     int i ;
+    for (i =-10 ; i >= -70 ; i-10 )
+      {
+
+     printf("%d",i);
+     printf("  ");
+     i = i - 10 ;
+
+
+    }
+    return 0 ;
+ }

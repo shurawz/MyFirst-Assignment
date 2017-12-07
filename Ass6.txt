@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main ()
+{
+    int  n ;
+    int F = 1 ;
+    printf("    \n");
+    printf(" n     n factorial\n");
+    for ( n =1 ; n <=10; n++)
+    {
+      F = F * n ;
+      printf("%d    %d\n",n , F);
+    }
+     return 0;
+}
